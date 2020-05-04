@@ -35,10 +35,20 @@ def search(lines, pattern, history=5):
 # print current line and prev lines
 
 
-with open('file_1_3.txt') as f:
-    for line, previous_lines in search(f, 'python'):
-        print(line, previous_lines)
-        print('-'*20)
+# When writing code to search for items,
+# it is common to use a generator function involving `yield`.
+# This decouples the process of searching from the code that uses the results
+
+q = deque()
+# TODO
+# Add item to `q`
+# Add item to the begginning of `q`
+# Remove item to `q`
+# Remove item to the begginning of `q`
+
+
+# Adding or popping items from either end of a queue has O(1) complexity.
+# This is unlike a list where inserting or removing items from the front of the list is O(N).   # noqa
 
 
 if __name__ == '__main__':
