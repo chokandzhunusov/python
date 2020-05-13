@@ -15,7 +15,7 @@
 #########
 # A dictionary is a mapping where each key is mapped to a single value.
 # If you want to map keys to multiple values,
-# you need to store the multiple values in another container such as a list or set.
+# you need to store the multiple values in another container such as a `list` or `set`.
 '''
 
 # For example, you might make dictionaries like this:

@@ -10,6 +10,7 @@
 # You want to perform various calculations
 # (e.g., minimum value, maximum value, sort‐ ing, etc.) on a dictionary of data.
 
+
 #########
 # Solution
 #########
