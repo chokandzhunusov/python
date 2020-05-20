@@ -35,5 +35,13 @@ rows = [
 # Filter the `rows` by `fname` and the `lname`. Then output in alphabetical order
 
 
+# TODO
+# Repeat operations above, but with more slower version using `lambda` expr
+
+# TODO
+# Extract the `min` of row using `itemgetter`
+# Extract the `max` of row using `itemgetter`
+
+
 if __name__ == '__main__':
     pass
