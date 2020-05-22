@@ -43,4 +43,4 @@ users = [User(1), User(24), User(12)]
 
 
 if __name__ == '__main__':
-    print(sorted(users, key=lambda u: u.user_id))
+    pass
