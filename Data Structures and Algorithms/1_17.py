@@ -28,11 +28,14 @@ prices = {
 # Make a `dict` of all `prices` above that value > 200 by using dictionary comprehension
 
 tech_names = {'AAPL', 'IBM', 'HPQ', 'MSFT'}
-# Make a dictionary of tech stocks.
+# TODO
+# Make a dictionary of tech stocks from 'tech_names'
 
+# INFO
 # Using `key, val for dict.items()` solutions(list comprehension)
 # is almost 1.6 times faster than the access by key[val]
 
+# INFO
 # And using tuple version `((key, val) for key, val in dict.items())`
 # is at least twice slower that simple `key, val`
 
