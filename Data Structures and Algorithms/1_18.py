@@ -21,7 +21,6 @@
 
 from collections import namedtuple
 
-Subscriber = namedtuple('Subscriber', ['addr', 'joined'])
 
 # TODO
 # Create `namedtuple` called `Subscriber`, which takes 2 fields: `addr`, `joined`
@@ -49,7 +48,7 @@ def compute_cost_nt(records):
     total = 0.0
     for rec in records:
         pass
-    return
+    return total
 
 # INFO
 # One possible use of a namedtuple is as a replacement for a dictionary,
@@ -61,7 +60,7 @@ def compute_cost_nt(records):
 
 s = Stock('ACME', 100, 123.45)
 # TODO
-# Replace `shares` value to 75
+# REPLACE `shares` value to 75
 
 
 # INFO
