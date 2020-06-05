@@ -1,6 +1,6 @@
 """
 ************************************************************
-**** 1.1.  Matching Text at the Start or End of a String
+**** 1.2.  Matching Text at the Start or End of a String
 ************************************************************
 
 
