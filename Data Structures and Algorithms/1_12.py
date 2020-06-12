@@ -37,11 +37,12 @@ more_words = ['why', 'are', 'you', 'not', 'looking', 'in', 'my', 'eyes']
 
 
 # TODO
-# Add `more_words` to words using method not loop
+# Add `more_words` to instance of `Counter` you've just
+# initialized using method, not loop
 
 # TODO
-# Combine `words` and  `more_words`
-# Subtract `more_words` from  `words`
+# Combine `Counter` instance of `words` and `Counter` instance `more_words`
+# Subtract `Counter` instance of `more_words` from `Counter` instance of `words`
 
 
 if __name__ == '__main__':
