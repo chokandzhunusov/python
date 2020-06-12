@@ -35,13 +35,14 @@ text2 = '''/* this is a
         multiline comment */
         '''
 # TODO
-# Change `pattern` to be able search multiline by adding `(?:.|\n)`
+# Change `pattern` to be able search multiline by
+# adding `(?:.|\n)` instead of dot(.)
 # Try to find all `pattern` matches in `text2`
 
 
 # TODO
-# Try to find all matches in
+# Try to find all matches in `text2` using simpler
+# version of searching `multiline` by adding re.DOTALL while compiling
 
 if __name__ == '__main__':
-    pattern = re.compile(r'/\*((?:.|\n)*?)\*/')
-    print(pattern.findall(text2))
+    pass
