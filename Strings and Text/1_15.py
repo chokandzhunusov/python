@@ -1,6 +1,6 @@
 """
 ************************************************************
-**** 1.14. Combining and Concatenating Strings
+**** 1.15. Combining and Concatenating Strings
 ************************************************************
 
 
@@ -31,4 +31,4 @@ n = 2
 
 
 if __name__ == '__main__':
-    print(vars())
+    pass
