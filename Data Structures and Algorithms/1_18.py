@@ -26,6 +26,9 @@ from collections import namedtuple
 # Create `namedtuple` called `Subscriber`, which takes 2 fields: `addr`, `joined`
 # Create and instance of newly created `Subscriber`
 
+Subscriber = namedtuple('Subscriber', ['addr', 'joined'])
+s1 = Subscriber('Panfilova 9', '12 Sept 2012')
+
 
 # INFO
 # References to positional elements often make the code a bit less expressive
@@ -39,7 +42,11 @@ def compute_cost(records):
 
 
 Stock = namedtuple('Stock', ['name', 'shares', 'price'])
-
+data = [
+    ('apple', 30, 20),
+    ('ibm', 30, 22),
+    ('skype', 30, 23),
+]
 # TODO
 # Finish function below, so that it involves above `Stock` instance to `compute_cost`
 
