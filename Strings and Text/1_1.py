@@ -29,14 +29,17 @@ line = 'asdf fjdk; afed, fjek,asdf, foo'
 # TODO
 # Split the variable `line` above by:
 # semicolumn (`;`) comma (`,`)  and spaces (` `) using `re`
+# space in regular expression => `\s`
 
 
 # TODO
 # Split the variable `line` into var `fields` but this time
 # include the matched results
+# HINT: Just add `|`
 
 
 # TODO
+# Use `list step` to solve following TODO's
 # Extract `values` from `fields` you created above
 # Extract `delimeters` from `fields` you created above(TRICKY
 # when will try to recreate `line`)
@@ -44,7 +47,8 @@ line = 'asdf fjdk; afed, fjek,asdf, foo'
 
 # TODO
 # Now recreate the var `line` from `values` and `delimeters`
-
+# ''.join(v+d for v,d in zip(values, delimiters))
 
 if __name__ == '__main__':
     pass
+
