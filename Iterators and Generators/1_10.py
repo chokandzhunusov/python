@@ -19,18 +19,21 @@
 
 import itertools
 
+from collections import defaultdict
+
 
 items = ['a', 'b', 'c']
 items_2 = [0, 1, 2, 3]
 # TODO
 # print (index, val) of items at once
 
+# TODO
+# Try to loop over lines of `./somefile.txt`
+# and print line num if word `python` there
+
 
 # TODO
-# Use itertools.combinations() to produce a sequence of combinations
-# of items.
+# Map words in a file to the lines in which they occur
 
 if __name__ == '__main__':
-    for i, val in enumerate(items_2):
-        print(f'{i}: {val}')
     pass
