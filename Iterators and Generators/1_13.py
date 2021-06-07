@@ -31,11 +31,9 @@ def gen_find(filepat, top):
     """
     Find all file names in a directory tree that match a shell wildcard pattern
     """
-    # Code goes here
-    # walk through `top`
-    # filter files for `filepat`
-    # yield file by joining path and name
-    pass
+    for root, dirs, files in os.walk(top):
+        for fname in fnmatch.filter(files, filepat):
+            yield os.path.join(root, fname)
 
 
 def gen_opener(filenames):
@@ -43,10 +41,10 @@ def gen_opener(filenames):
     Open a sequence of filenames one at a time producing a file object.
     The file is closed immediately when proceeding to the next iteration.
     """
-    # Code goes here
-    # yield each file by opening it in `rt` mode
-    # close file
-    pass
+    for file in filenames:
+        f = open(file, 'rt')
+        yield f
+        f.close()
 
 
 def gen_concatenate(iterators):
