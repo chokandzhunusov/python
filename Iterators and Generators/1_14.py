@@ -14,7 +14,7 @@
 # This is easily solved by writing a recursive generator function involving a yield from statement.
 
 # TODO
-#   - Write a function that will take an nested items of list dt, loop, if it
+#   - Write a function that will take a nested items of list dt, loop, if it
       is Iterable that it makes yield by recursive call of that inner items
       Else just yields item.
       Note the usage of `yields from` which is used for clean code
@@ -28,23 +28,6 @@
 """
 
 from collections import Iterable
-
-
-def flatten(items, ignore_types=(str, bytes)):
-    for x in items:
-        if isinstance(x, Iterable) and not isinstance(x, ignore_types):
-            yield from flatten(x)
-        else:
-            yield x
-
-
-def flatten_strategy_2(items, ignore_types=(str, bytes)):
-    for x in items:
-        if isinstance(x, Iterable) and not isinstance(x, ignore_types):
-            for i in flatten(x):
-                yield i
-        else:
-            yield x
 
 
 if __name__ == '__main__':

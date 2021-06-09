@@ -15,7 +15,9 @@
 # The `heapq.merge()` function does exactly what you want.
 
 # TODO
-#   - Given two sequence of elements a=[1, 3] and b=[2, 4]. Merge them but in sorted order
+   - Given two sequence of elements a=[1, 3] and b=[2, 4]. Merge them but in sorted order
+   - Given 2 files with sorted elements. Open them in read mode and Merge them by keeping order.
+     Write them into 3rd file.
 """
 
 
@@ -27,5 +29,5 @@ b = [2, 4, 6, 8]
 
 
 if __name__ == '__main__':
-    result = heapq.merge(a, b)
-    print([x for x in result])
+    pass
+
