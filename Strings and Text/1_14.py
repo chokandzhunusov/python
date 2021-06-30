@@ -31,6 +31,7 @@ a, b, c = 'Dzhunusov', 'Chokan', 'Zaurbekovich'
 # TODO
 # Print the variables above by separating them with ':',
 # the idea is to show lookouts for unnecessary string concatenations.
+# Do ont use ugly join() for this case
 
 
 if __name__ == '__main__':
